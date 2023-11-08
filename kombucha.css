@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* NavBar */
+nav{
+    width: 100%;
+    height: 50px;
+}
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+ul{
+    display: flex;
+}
+.navlink ul li a{
+    text-decoration: none;
+}
+.navlink ul li{
+    padding: 10px;
+    list-style: none;
+}
+
+.linkdiv{
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*  KOMBUCHA */
+
+.container {
+    width: 100%;
+    
+}
+
+.backling{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.backling img{
+    width:700px;
+    
+}
+.navicon {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* KONBUCHA TEXT */
+
+.text {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+.text h5{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.text h1{
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+.text h2{
+    font-size: 60px;
+    color: rgb(255, 0, 72);
+}
+.text p {
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+.sign {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.text .details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+
+button {
+    cursor: pointer;
+    padding: 20px;
+    height: 50px;
+    left: 50%;
+    margin: 40px 0;
+    color: white;
+    background-color: rgb(59,59, 84);
+}
+
+/* CONTAIN */
+.contain{
+    display: flex;
+     background-color: ghostwhite;
+    width: 100%;
+    height: 150px;
+    clear: both;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    align-content: center;
+}
+.lovatodiv {
+    margin-top: 45px;
+    padding-bottom: 25px;
+}
+
+
+
+
+
+.product h3 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 15px;
+}
+.product .small {
+    text-align: center;
+    font-size: 20px;
+}
+.last {
+    display:  flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.last h6{
+    font-size: 25px;
+    margin-top: 40px;
+}
+.btn button {
+    cursor: pointer;
+    width: 180px;
+    height: 50px;
+    position: relative;
+    left: 50%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    color: #fff;
+    background-color: rgb(59, 59, 84);
+}
